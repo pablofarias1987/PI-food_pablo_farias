@@ -1,0 +1,49 @@
+.general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.name {
+    width: 300px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    margin-bottom: 20px;
+    height: 280px;
+    width: 420px;
+    border-radius: 50px;
+    border: 5px solid rgba(46, 46, 46, 0.825);
+}
+
+.img:hover {
+    box-shadow: 10px 10px 10px rgb(0, 0, 0.500);
+    transition: 0.3s;
+}
+
+.star {
+    width: 20px;
+    background-color: none;
+}
+
+@media screen and (max-width: 500px) {
+    .name {
+        width: 300px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img {
+        margin-bottom: 20px;
+        height: 200px;
+        width: 300px;
+        border-radius: 50px;
+    }
+}

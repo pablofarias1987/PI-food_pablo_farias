@@ -1,0 +1,105 @@
+.enc {
+    background-color: rgba(0, 0, 0, 0.423);
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    color: white;
+}
+
+.form {
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.423);
+}
+
+
+.hr {
+    border-color: rgba(255, 255, 255, 0.23);
+    width: 290px;
+}
+
+.txt {
+    margin-top: 20px;
+}
+
+.input {
+    border: solid 1px #999;
+    border-radius: 5px;
+    outline: none;
+}
+
+.inputScore {
+    border: solid 1px #999;
+    border-radius: 5px;
+    outline: none;
+    width: 40px;
+}
+
+.inputext {
+    border: solid 1px #999;
+    border-radius: 5px;
+    outline: none;
+    height: 80px;
+    width: 250px;
+}
+
+.err {
+    color: red;
+    font-size: 10px;
+}
+
+.btn1 {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    background-color: rgb(64, 255, 0);
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 110px;
+    transition: 0.2s;
+}
+
+.btn2 {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+}
+
+.btn2:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 110px;
+    transition: 0.2s;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}

@@ -1,0 +1,300 @@
+.btnYfilt {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}
+
+hr {
+    clear: both;
+    border: 1px solid transparent;
+    height: 0px
+}
+
+.recipes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px 220px;
+}
+
+.actual {
+    color: white;
+}
+
+.btn {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #222222;
+    color: rgba(245, 245, 245, 0.836);
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.btn:hover {
+    background-color: rgb(80, 80, 80);
+    color: white;
+    transition: 0.2s;
+    scale: 110%;
+}
+
+.box select {
+    background-color: #222222;
+    color: rgba(245, 245, 245, 0.836);
+    border-color: black;
+    border-style: groove;
+    border-radius: 5px;
+    border-width: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.box select:hover {
+    color: white;
+    background-color: rgb(80, 80, 80);
+    transition: 0.2s;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.pag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ref {
+    display: flex;
+    justify-content: center;
+    border: 12px;
+    border-right: 0ch;
+    border-left: 0ch;
+    border-style: dotted;
+    border-color:rgba(20, 16, 11, 0.404);
+    margin-top: 30px;
+}
+
+.star {
+    width: 40px;
+    height: 40px;
+    background-color: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.starRef {
+    color:white;
+    font-size: 150%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.load {
+    color: white;
+    font-size: 150%;
+    padding: 100px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .btn {
+        height: 35px;
+        width: 95px;
+        border-radius: 10px;
+        background-color: #222222;
+        color: rgba(245, 245, 245, 0.836);
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+    .btn:hover {
+        background-color: rgb(80, 80, 80);
+        color: white;
+        transition: 0.2s;
+        scale: 110%;
+    }
+
+    .box select {
+        background-color: #222222;
+        color: rgba(245, 245, 245, 0.836);
+        border-color: black;
+        border-style: groove;
+        border-radius: 5px;
+        border-width: 5px;
+        font-size: 12px;
+        outline: none;
+        border-radius: 3px;
+    }
+
+    .box select:hover {
+        color: white;
+        background-color: rgb(80, 80, 80);
+        transition: 0.5s;
+    }
+
+    .pub {
+        display: none;
+    }
+
+    .pub2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+        height: 30px;
+        width: 90px;
+        border-radius: 10px;
+        background-color: #222222;
+        color: rgba(245, 245, 245, 0.836);
+        font-weight: bold;
+        font-size: 9px;
+    }
+
+    .btn:hover {
+        background-color: #222222;
+        color: rgba(245, 245, 245, 0.836);
+        transition: 0.2s;
+        scale: 110%;
+    }
+
+    .box select {
+        background-color: #222222;
+        color: rgba(245, 245, 245, 0.836);
+        border-color: black;
+        border-style: groove;
+        border-radius: 5px;
+        border-width: 5px;
+        font-size: 10px;
+        outline: none;
+        border-radius: 2px;
+    }
+
+    .box select:hover {
+        color: white;
+        background-color: rgb(80, 80, 80);
+        transition: 0.5s;
+    }
+
+    .actual {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .btn {
+        height: 25px;
+        width: 85px;
+        border-radius: 8px;
+        background-color: #222222;
+        color: rgba(245, 245, 245, 0.836);
+        font-weight: bold;
+        font-size: 7px;
+    }
+
+    .btn:hover {
+        background-color: rgb(80, 80, 80);
+        color: white;
+        transition: 0.2s;
+        scale: 110%;
+    }
+
+    .box select {
+        background-color: #222222;
+        color: rgba(245, 245, 245, 0.836);
+        border-color: black;
+        border-style: groove;
+        border-radius: 5px;
+        border-width: 5px;
+        font-size: 9px;
+        outline: none;
+        border-radius: 2px;
+    }
+
+    .box select:hover {
+        color: white;
+        background-color: rgb(80, 80, 80);
+        transition: 0.5s;
+    }
+
+    .btnYfilt {
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .btn {
+        height: 20px;
+        width: 80px;
+        border-radius: 8px;
+        background-color: #222222;
+        color: rgba(245, 245, 245, 0.836);
+        font-weight: bold;
+        font-size: 6px;
+    }
+
+    .btn:hover {
+        background-color: rgb(80, 80, 80);
+        color: white;
+        transition: 0.2s;
+        scale: 110%;
+    }
+
+    .box select {
+        background-color: #222222;
+        color: rgba(245, 245, 245, 0.836);
+        border-color: black;
+        border-style: groove;
+        border-radius: 5px;
+        border-width: 5px;
+        font-size: 7px;
+        outline: none;
+        border-radius: 2px;
+    }
+
+    .box select:hover {
+        color: white;
+        background-color: rgb(80, 80, 80);
+        transition: 0.5s;
+    }
+
+    .btnYfilt {
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        color: white;
+    }
+
+    .actual {
+        color: white;
+        font-size: 10px;
+    }
+
+    .star {
+        width: 15px;
+        background-color: none;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .starRef {
+        color: white;
+        font-size: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
