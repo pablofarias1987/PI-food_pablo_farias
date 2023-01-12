@@ -1,138 +1,41 @@
-body {
-    margin: 0;
+.landingbackground {
+    background-image: url("https://images.pexels.com/photos/616404/pexels-photo-616404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+
 }
 
-.video {
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: -1;
-}
-
-.overlay {
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: -1;
-    background: rgba(0, 0, 0, 0.575);
-}
-
-.absolute {
-    width: 100%;
-    height: 700px;
-    right: 0;
-    text-align: center;
-
-    justify-content: center;
+.contlanding {
+    display: flex;
+    background: rgba(255, 255, 255, 0.19);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.2px);
+    -webkit-backdrop-filter: blur(2.2px);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    height: 99vh;
     align-items: center;
-}
-
-.text {
-    font-size: 80px;
-    font-weight: 900;
-    z-index: 100;
-    color: #fff;
-    margin-bottom: 30px;
-}
-
-.text::after {
-    display: block;
-    width: 30%;
-    height: 10px;
-    content: "";
-    margin: auto;
-    background: #fff;
-}
-
-.imag {
-    height: 150px;
-    width: 150px;
-    position: relative;
-    vertical-align: middle;
-    top: -250px;
-}
-
-.imag:hover {
-    height: 165px;
-    width: 165px;
-    transition: all 0.3s ease-out;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
-@media screen and (max-width: 800px) {
-    .text {
-        font-size: 50px;
-    }
-
-    .imag {
-        height: 120px;
-        width: 120px;
-
-    }
-
-    .imag:hover {
-        height: 128px;
-        width: 128px;
-        transition: all 0.3s ease-out;
-    }
+.enterbutton {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
 }
 
-@media screen and (max-height: 800px) {
-    .text {
-        position: relative;
-        top: -90px
-    }
-
-    .imag {
-        position: relative;
-        top: -350px
-    }
-
-    .imag:hover {
-        transition: all 0.3s ease-out;
-    }
+.enterbutton:hover {
+    border: 1px solid white;
 }
 
-@media screen and (max-width: 500px) {
-    .text {
-        font-size: 30px;
-        margin-bottom: 0;
-    }
-
-    .text::after {
-        height: 5px;
-    }
-
-    .imag {
-        height: 100px;
-        width: 100px;
-    }
-
-    .imag:hover {
-        height: 108px;
-        width: 108px;
-        transition: all 0.3s ease-out;
-    }
-}
-
-@media screen and (max-height: 500px) {
-    .text {
-        position: relative;
-        top: -180px
-    }
-
-    .imag {
-        position: relative;
-        top: -480px
-    }
-
-    .imag:hover {
-        transition: all 0.3s ease-out;
-    }
+.enterbutton:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+        -4px -4px 12px #ffffff;
 }

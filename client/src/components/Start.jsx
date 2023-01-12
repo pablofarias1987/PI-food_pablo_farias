@@ -1,29 +1,19 @@
-import React, { Component } from "react";
-import video from "./Images/Video.mp4.webm"
-import plate from "./Images/Plate.png"
-import style from "./Styles/Start.module.css"
+import React from "react";
+import  style from "./Styles/Start.module.css"
 import { Link } from "react-router-dom"
 
-export default class Start extends Component {
+export default function Start() {
 
-    render() {
+
         return (
-            <div>
-                <div>
-                    <video className={style.video} autoPlay loop muted>
-                        <source src={video} type='video/mp4'></source>
-                    </video>
-                    <div className={style.overlay}></div>
-                    <div className={style.absolute}>
-                        <h1 className={style.text}>Henry PI Food</h1>
-                    </div>
-                    <div>
-                        <Link to='/home'>
-                            <img className={style.imag} src={plate} alt="Plate"></img>
-                        </Link>
-                    </div>
-                </div>
+            <div className={style.landingbackground}>
+            <div className={style.contlanding}>
+                <h1>PI FOOD HENRY - PABLO FARIAS</h1>
+                <Link to='/home'>
+                    <button className={style.enterbutton}>ENTRAR</button>
+                </Link>
             </div>
+        </div>
+
         )
     }
-}
